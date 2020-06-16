@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Notes, Snipps & Hacks
+  link: /notes.html
+- name: Resume
+  link: /#

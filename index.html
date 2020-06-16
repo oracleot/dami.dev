@@ -3,28 +3,26 @@ layout: default
 title: Damilola Oduronbi
 ---
 
-<div class="container">
-  <p>
-    <strong class="color-primary">{{ page.title }}</strong>
-  </p>
-  <p class="me">Welcome!</p>
-  <p>I've been a Frontend Developer and User Experience (UX) Designer.<br />I'm from Lagos, Nigeria.</p>
-  <p>I lead the Software Development Team at <a class="highlight" target="_blank" href="https://app.talentup.africa/">TalentUp Africa</a> and also Mentor aspiring and young developers interested in learning Frontend at <a class="highlight" target="_blank" href="https://mentorcruise.com/">MentorCruise</a>
-  <br />
-  I've also worked at <a class="highlight" target="_blank" href="https://www.konga.com/">Konga Online Shopping</a> as a Creative Strategist and <a class="highlight" target="_blank" href="https://www.gtbank.com/">GTBank, Nigeria</a> as a UX Design Consultant.</p>
-  <div style='margin-top: 50px'>
-    <strong>Explore</strong>
-    <p>
-      <a href='/resume' class='card'>My Resume</a>
-      <a href="/bookmarks" class='card'>My Bookmarks</a>
-      <a href='/experiments' class='card'>My Experiments</a>
-    </p>
-    <div class="social-networks">
-      <a href=''>MentorCruise</a>&nbsp;.&nbsp;
-      <a href=''>GitHub</a>&nbsp;.&nbsp;
-      <a href=''>LinkedIn</a>&nbsp;.&nbsp;
-      <a href=''>CoderRank</a>&nbsp;.&nbsp;
-      <a href=''>Twitter</a>
+{% include illustration.html %}
+<div class="pt-4 pt-md-0">
+  {% include intro.html %}
+</div>
+<div class="container pt-4">
+  <div class="row">
+    <div class="col-md-5">
+      <h4 class="color-secondary font-bold">Recent Projects</h4>
+      {% include projects.html %}
+    </div>
+    <div class="col-md-3">
+      <h4 class="color-secondary font-bold">Development</h4>
+      {% include development.html %}
+    </div>
+    <div class="col-md-4">
+      <h4 class="color-secondary font-bold">Design and Prototyping</h4>
+      {% include design.html %}
+      <div class="mt-3"></div>
+      <h4 class="color-secondary font-bold">Preferred Environment</h4>
+      {% include environment.html %}
     </div>
   </div>
 </div>
