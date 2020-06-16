@@ -1,0 +1,10 @@
+{% for project in site.data.projects %}
+  <div class="pb-2 pr-3">
+    <h5>{{project.name}}</h5>
+    <p class="font-regular color-secondary" style='line-height: 140%'>
+      {{project.description}}<br />
+      <a style="position: relative; top: 3px;" class="link" href={project.link}>{{project.link}}</a>
+    </p>
+    <hr />
+  </div>
+{% endfor %}
