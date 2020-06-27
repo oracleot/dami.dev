@@ -1,0 +1,8 @@
+<ul>
+  {% for experience in site.data.development %}
+    <li>
+      {{experience.skill}}&ensp;
+      <small>[ {{experience.years}} ]</small>
+    </li>
+  {% endfor %}
+</ul>
