@@ -1,6 +1,9 @@
 - name: Home
   link: /
+  target: _self
 - name: Notes, Snipps & Hacks
   link: /notes.html
+  target: _self
 - name: Resume
-  link: /#
+  link: https://docs.google.com/document/d/1zhaTDfRFo71sz9bapEFUBQOw2indEVTpr4sLARel0W8/edit#
+  target: _blank
