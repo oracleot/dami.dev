@@ -1,0 +1,26 @@
+Markdown: Basics
+
+HEADINGS:
+h1 -> # or (underlining with =====)
+h2 -> ## or (underlining with -----)
+h3 -> ### .... h6 -> ######
+
+PARAGRAPH:
+Indicated with empty lines in between texts.
+
+For instance, this starts another paragraph after the one above.
+
+BLOCKQUOTE: ( uses > )
+E.g
+> This is a blockquote
+>
+> This is the second paragraph in the blockquote
+>
+> ## This is an h2 in a blockquote
+
+EMPHASIS: (<em> uses * or _)
+E.g
+Some of these words are *emphasized*.
+Some  of these are _emphasized also_.
+
+EMPHASIS: (<strong> **)

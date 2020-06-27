@@ -1,0 +1,11 @@
+- make it simple
+- source for ideas from different place
+- focus on UX and Max Optimization
+- Build a JAMstack website
+- Menus: My Resume (Contact Me), My Bookmarks, My Snippets, Projects (Client & Experiments)
+
+
+- Intro
+*D*amilola *Oduronbi*
+Frontend Dev, Tech Lead @TalentUpAfrica . Mentor @MentorCruise
+-- gather intros from top frontend guys
