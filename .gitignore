@@ -2,3 +2,6 @@ todos.txt
 hugo.md
 LearningMarkdown.txt
 LearningJekyll.md
+
+# Local Netlify folder
+.netlify
